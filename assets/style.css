@@ -349,6 +349,7 @@ h3 {
   flex-direction: row;
   max-width: 1500px;
   margin: 0 auto;
+  gap: 100px;
 }
 
 .fotos img {
@@ -358,7 +359,7 @@ h3 {
   cursor: pointer;
 }
 .fotos img:hover {
-  transform: scale(1.4);
+  transform: scale(1.6);
 }
 .register {
   min-height: 70vh;
