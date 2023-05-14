@@ -578,15 +578,8 @@ footer {
   .home {
     background-position: 37% 50%;
   }
-  .modal {
-    display: none;
-  }
-
-  .modal img {
-    display: none;
-  }
-  .close {
-    display: none;
+  .fotos img:hover {
+    transform: none;
   }
 }
 
