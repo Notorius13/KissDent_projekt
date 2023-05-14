@@ -1,0 +1,73 @@
+body {
+    font-family: helvetica;
+  }
+
+  h1 {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #cdb6a7;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #a299ac;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+
+  .opening-hours {
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1),
+      0 1px 2px rgba(0, 0, 0, 0.24);
+    background-color: #111;
+    padding: 1em;
+    max-width: 450px;
+    min-width: 320px;
+    margin: 0 auto;
+  }
+
+  .fvl-d > td {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    color: #a299ac;
+    text-transform: uppercase;
+    padding: 1em;
+  }
+
+  .fvl-d > td > span {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    color: #a299ac;
+    text-transform: uppercase;
+  }
+
+  @media screen and (max-width: 382px) {
+    .fvl-d > td {
+      font-size: 14px;
+      padding: 15px 5px;
+    }
+
+    #activerow {
+      border: none;
+      background-color: #cdb6a7;
+    }
+
+    #activerow > td {
+      color: white;
+      font-weight: 600;
+    }
+
+    #activerow > td > span {
+      color: white;
+    }
+  }
