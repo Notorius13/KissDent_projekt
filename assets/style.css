@@ -496,34 +496,7 @@ footer {
   text-align: center;
 }
 
-.links h3 {
-  margin-top: 2rem;
-  padding-left: 2rem;
-}
 
-.post-footer {
-  text-align: center;
-  padding-bottom: 3rem;
-}
-.post-footer p {
-  font-size: 0.5rem;
-}
-.links ul {
-  padding-left: 32px;
-}
-.links li {
-  display: block;
-  padding-bottom: 1rem;
-}
-.links a {
-  transition: 0.3s all ease-in-out;
-  font-size: 0.6rem;
-}
-.links a:hover,
-.links a:active,
-.links a:focus {
-  color: var(--orange);
-}
 #scroll-to-top {
   display: none;
   position: fixed;
@@ -567,14 +540,6 @@ footer {
   }
   .aboutus {
     padding-left: 2rem;
-  }
-  .post-footer {
-    text-align: right;
-    padding-bottom: 3rem;
-  }
-  .links a {
-    transition: 0.3s all ease-in-out;
-    font-size: 0.8rem;
   }
 }
 
