@@ -10,11 +10,6 @@
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-kerning: auto;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 * {
   font-family: "Open Sans", sans-serif;
@@ -533,6 +528,15 @@ footer {
 /* media queries  */
 
 @media (max-width: 768px) {
+  *,
+  *::before,
+  *::after {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
   html {
     font-size: 55%;
   }
