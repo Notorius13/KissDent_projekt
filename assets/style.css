@@ -266,7 +266,7 @@ header.header-active .navbar a {
 }
 
 .service {
-  min-height: 50vh;
+  min-height: 100vh;
   text-align: center;
 }
 
