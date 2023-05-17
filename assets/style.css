@@ -528,7 +528,7 @@ footer {
 }
 /* media queries  */
 
-@media (max-width: 768px) {
+@media (max-width: 810px) {
   *,
   *::before,
   *::after {
