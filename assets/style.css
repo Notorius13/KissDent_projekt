@@ -437,20 +437,6 @@ h3 {
   text-align: center;
 }
 
-#scroll-to-top {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 999;
-  background-color: rgb(59, 58, 58);
-  color: var(--orange);
-  padding: 11px 14px;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: opacity 0.2s ease-in-out;
-}
-
 #scroll-to-top:hover {
   opacity: 0.7;
 }
@@ -464,6 +450,7 @@ h3 {
   font-size: 8rem;
   margin-top: 1rem;
 }
+
 @media screen and (min-width: 800px) {
   .us {
     display: grid;
@@ -489,10 +476,13 @@ h3 {
   bottom: 20px;
   right: 20px;
   z-index: 999;
-  background-color: #ebd7d7;
-  color: #fff;
+  background-color: #515151;
+  color: var(--orange);
   padding: 11px 14px;
   border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 30px 5px rgba(232,218,137,1);
+-moz-box-shadow: 0px 0px 30px 5px rgba(232,218,137,1);
+box-shadow: 0px 0px 30px 5px rgba(232,218,137,1);
   cursor: pointer;
   transition: opacity 0.2s ease-in-out;
 }
