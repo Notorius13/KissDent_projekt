@@ -50,3 +50,14 @@ window.addEventListener("load", function () {
     preloader.style.display = "none";
   }, 0);
 });
+window.addEventListener('scroll', function () {
+  let scrollValue = window.scrollY;
+
+  const parallaxLayers = document.querySelectorAll('.parallax-layer');
+
+  parallaxLayers.forEach(function (layer, index) {
+    let speed = 0.1 * (index + 1);
+    let yOffset = -(scrollValue * speed);
+    layer.style.transform = `translateY(${yOffset}px)`;
+  });
+});
